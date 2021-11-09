@@ -1,0 +1,427 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.nav{
+    width: 100%;
+    height: 60px;
+    background-color:white;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 150px;
+    margin-left: 60px;
+}
+
+.logo img{
+    width: 120px;
+}
+
+.span{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin: 0 30px;
+}
+
+.spc{
+    margin: 0 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: gray;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.accnt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 15px;
+    margin: 0 20px;
+}
+
+.all{
+    display: flex;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(22, 22, 22);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.ser{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(22, 22, 22);
+    margin-left: 10px;
+}
+.ser img{
+    width: 15px;
+    margin: 0 8px;
+}
+
+.cart{
+    display: flex;
+    flex: 0.5;
+    justify-content:center;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(22, 22, 22);
+}
+
+.cart img{
+    width: 25px;
+}
+
+.sign{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: rgb(22, 22, 22);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.sign img{
+    width: 40px;
+}
+
+.lap{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top{
+    width: 90%;
+    height: 450px;
+    background-image: url(./img/surface_pro.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 10px;
+}
+
+.new{
+    margin: 0 50px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.btn{
+    width: 80px;
+    height: 30px;
+    border: none;
+    background-color:#ffb900;
+    letter-spacing:  -0.01em;
+    line-height: 1.5em;
+    font-weight: 600;
+    font-size: 13px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #000000;
+}
+
+.text{
+    font-family: sans-serif;
+    line-height: 24px;
+    margin-top: 10px;
+}
+
+.text p{
+    font-size: 20px;
+    overflow: hidden;
+    box-sizing: content-box;
+    opacity: .95;
+    font-weight: 600;
+    color: rgb(51, 51, 51);
+}
+
+.text h5{
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+    padding: 20px 0 5px;
+}
+
+.see span{
+    width: 200px;
+    height: 30px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    color:#000;
+    padding: 8px 20px 8px 20px;
+    font-family: sans-serif;
+    font-size: 15px;
+    transform: 1;
+    transition: all 200ms;
+    font-weight: 500;
+}
+
+.see span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    transition: all 350ms;
+    transform: 2;
+    box-shadow: rgb(51, 51, 51) 0 4px 8px 0 transparent;
+}
+
+.line2{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.lap2{
+    width: 90%;
+    height: 450px;
+    background: url(./img/office.jpg);
+    background-size: cover;
+    background-attachment: unset;
+}
+
+.tip{
+    margin: 0 30px;
+    margin-top: 150px;
+}
+
+.tip span{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 0.50px;
+    color: rgb(7, 7, 7);
+}
+
+.tip p{
+    margin-top: 15px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.bttn{
+    border: none;
+    width: 170px;
+    height: 35px;
+    margin-top: 15px;
+    font-size: 17px;
+    background-color: rgb(22, 22, 22);
+    color: whitesmoke;
+}
+
+.bttn:hover{
+    text-decoration: 2px underline;
+    cursor: pointer;
+}
+
+.tot{
+    width: 100;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wer{
+    width: 90%;
+    height: 130px;
+    background-color:rgba(199, 199, 199, 0.178);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tot span{
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-weight: 500;
+}
+
+.tot p{
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-top: 6px;
+}
+
+.tot a{
+    text-decoration: none;
+    color:#0067b8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tot a:hover{
+    text-decoration: 2px underline;
+}
+
+.fat{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.pot{
+    width: 90%;
+    height: 400px;
+    background: url(./img/holo.jpeg);
+    background-size: cover;
+}
+
+.cat{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.catt{
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.catt span{
+    font-size: 16px;
+    margin-bottom: 40px;
+    font-family: sans-serif;
+    color: rgba(83, 83, 83, 0.897);
+}
+
+.spcc{
+    margin-bottom: 40px;
+    margin-left: 5px;
+}
+
+.spcc img{
+    margin: 0 6px;
+    width: 20px;
+}
+
+.lines{
+    width: 100;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+}
+
+.daf{
+    width: 90%;
+    height: 400px;
+    background-color: red;
+    display: flex;
+}
+
+.tit{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    background-color:rgba(199, 199, 199, 0.178);
+    justify-content: center;
+}
+
+.las{
+    width: 90%;
+    height: 200px;
+    display: flex;
+    margin-top: 30px;
+}
+
+.mic{
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+}
+
+.mic span{
+    font-family: sans-serif;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.edu{
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    margin: 0 50px;
+}
+
+.edu span{
+    font-family: sans-serif;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.ent{
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    margin: 0 50px;
+}
+
+.ent span{
+    font-family: sans-serif;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.dev{
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    margin: 0 50px;
+}
+
+.dev span{
+    font-family: sans-serif;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.stu{
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+}
+
+.stu span{
+    font-family: sans-serif;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.las a{
+    font-size: 12px;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: rgba(83, 83, 83, 0.897);
+}
+
+.las span{
+    font-weight: 500;
+}
